@@ -1,5 +1,7 @@
 window.onload = function(){
     displayBingoBoard()
+    const range = fillArray();
+    generateRandNumber(range)
 }
 
 
@@ -24,14 +26,14 @@ random = Math.floor(Math.random() * 76) + 1
 const numbers = document.querySelectorAll(".number")
 let topNumber = document.getElementById("randomNumber")
 
+
 for (let i = 0; i <= 75; i++){
-
     if(i === random){
-        const numberSelected = numbers[i - 1]   
-        topNumber.innerHTML = random
-        numberSelected.classList.add("chosen")
-
+            topNumber.innerHTML = random
+            numbers[i - 1].classList.add("chosen")
+            console.log(random)
+        
     }
 }
-
 }
+
