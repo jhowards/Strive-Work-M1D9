@@ -1,7 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body {
-    background-color: black;
+    background-color: #121212;
     color: white;
-    max-width: 768px;
     margin: 0 auto;
-    font-family: "Nunito", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    max-width: 1280px;
+}
+
+h1{
+    font-size: 40pt;
+    text-align: center;
+    margin-top: 20px;
+    color: #d6d317;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 4px 2px #050303;
+}
+
+#bingo-board {
+    border-style: solid;
+    display: inline-block;
+    width: 100%;
+    border-color: #292929;
+    border-width: 3px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.number {
+    background-color: rgb(14 14 14);
+    display: inline-block;
+    width: 12.1%;
+    min-height: 64px;
+    text-align: center;
+    padding-top: 32px;
+    font-size: larger;
+    font-weight: bold;
+    border-style: solid;
+    border-color: rgb(14 14 14);
+    border-radius: 8px;
+    margin: 3px;
 }
