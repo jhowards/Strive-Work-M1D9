@@ -9,14 +9,32 @@ body {
 
 h1{
     font-size: 40pt;
-    text-align: center;
+    display: inline-block;
+    margin-left:35%;
     margin-top: 20px;
+    margin-right: 80px;
     color: #d6d317;
     text-transform: uppercase;
     font-weight: bold;
     text-shadow: 4px 2px #050303;
 }
 
+
+#randomNumber{
+    background-color: #00db71;
+    color: black;
+    display: inline-block;
+    width: 8.1%;
+    min-height: 54px;
+    text-align: center;
+    padding-top: 32px;
+    font-size: x-large;
+    font-weight: bold;
+    border-style: solid;
+    border-color: rgb(14 14 14);
+    border-radius: 8px;
+    margin: 3px;
+}
 #bingo-board {
     border-style: solid;
     display: inline-block;
@@ -30,8 +48,8 @@ h1{
 .number {
     background-color: rgb(14 14 14);
     display: inline-block;
-    width: 12.1%;
-    min-height: 64px;
+    width: 8.1%;
+    min-height: 54px;
     text-align: center;
     padding-top: 32px;
     font-size: larger;
