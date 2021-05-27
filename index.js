@@ -22,12 +22,13 @@ const displayBingoBoard = function(){
 const numberSelect = function(){
 random = Math.floor(Math.random() * 76) + 1
 const numbers = document.querySelectorAll(".number")
+let topNumber = document.getElementById("randomNumber")
 
 for (let i = 0; i <= 75; i++){
 
     if(i === random){
-        let numberSelected = numbers[i - 1]
-        
+        const numberSelected = numbers[i - 1]   
+        topNumber.innerHTML = random
         numberSelected.classList.add("chosen")
 
     }
