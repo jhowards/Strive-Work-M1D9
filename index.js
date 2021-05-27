@@ -14,12 +14,23 @@ const displayBingoBoard = function(){
         bingoBoard.appendChild(number)
     }
     let number = document.createElement("div")
-    number.innerText = "x"
+    number.innerText = "BINGO!"
     number.classList.add("lastItem")
     bingoBoard.appendChild(number)
 }
 
 const numberSelect = function(){
 random = Math.floor(Math.random() * 76) + 1
-console.log(random)
+const numbers = document.querySelectorAll(".number")
+
+for (let i = 0; i <= 75; i++){
+
+    if(i === random){
+        let numberSelected = numbers[i - 1]
+        
+        numberSelected.classList.add("chosen")
+
+    }
+}
+
 }
