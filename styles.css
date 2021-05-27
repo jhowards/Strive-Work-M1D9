@@ -10,7 +10,7 @@ body {
 h1{
     font-size: 40pt;
     display: inline-block;
-    margin-left:35%;
+    margin-left:32%;
     margin-top: 20px;
     margin-right: 80px;
     color: #d6d317;
@@ -28,7 +28,7 @@ h1{
     min-height: 54px;
     text-align: center;
     padding-top: 32px;
-    font-size: x-large;
+    font-size: 25px;
     font-weight: bold;
     border-style: solid;
     border-color: rgb(14 14 14);
@@ -43,6 +43,7 @@ h1{
     border-width: 3px;
     padding: 12px;
     border-radius: 8px;
+    margin-bottom: 15px;
 }
 
 .number {
@@ -58,4 +59,29 @@ h1{
     border-color: rgb(14 14 14);
     border-radius: 8px;
     margin: 3px;
+}
+
+/* // used a CSS button generator to create button CSS */
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:24px;
+	font-weight:bold;
+	padding:28px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+    margin-left:40%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
