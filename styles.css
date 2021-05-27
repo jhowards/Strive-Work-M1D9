@@ -33,7 +33,9 @@ h1{
     border-style: solid;
     border-color: rgb(14 14 14);
     border-radius: 8px;
-    margin: 3px;
+    margin: auto;
+    box-shadow: 2px 2px #050303;
+    
 }
 #bingo-board {
     border-style: solid;
@@ -56,9 +58,27 @@ h1{
     font-size: larger;
     font-weight: bold;
     border-style: solid;
-    border-color: rgb(14 14 14);
+    border-color: rgb(145, 145, 145);
     border-radius: 8px;
     margin: 3px;
+    box-shadow: 2px 2px #050303;
+}
+
+.lastItem {
+    background-color: rgb(0, 0, 0);
+    color:rgba(0,0,0,0);
+    border-color: rgb(46, 46, 46);
+    display: inline-block;
+    width: 8.1%;
+    min-height: 54px;
+    text-align: center;
+    padding-top: 32px;
+    font-size: larger;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 8px;
+    margin: 3px;
+    
 }
 
 /* // used a CSS button generator to create button CSS */
@@ -76,6 +96,7 @@ h1{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #3d768a;
     margin-left:40%;
+    font-family: "Montserrat", sans-serif;
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
