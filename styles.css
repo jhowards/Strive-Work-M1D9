@@ -19,6 +19,7 @@ h1{
     text-shadow: 4px 2px #050303;
     position:relative;
     top:10px;
+    user-select: none;
 }
 
 
@@ -50,6 +51,7 @@ h1{
     padding: 12px;
     border-radius: 8px;
     margin-bottom: 15px;
+    user-select: none;
 }
 
 .number {
